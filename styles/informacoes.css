@@ -1,0 +1,42 @@
+@import url('./informacoes-mobile.css');
+
+.mais-informacoes {
+   display: flex;
+   background-color: #000000;
+   justify-content: space-around;
+   margin: 0;
+   padding: 2rem 4rem 2rem 4rem;
+   opacity: 1;
+}
+
+.informacoes-item {
+   display: flex;
+   flex-direction: row;
+   width: 16rem;
+   height: 8rem;
+   padding: 1rem;
+}
+
+.container-icone {
+   width: 35%;
+}
+
+.container-icone img {
+   width: 4rem;
+   height: 4rem;
+}
+
+.container-informacoes {
+   width: 80%;
+}
+
+.titulo-informacoes {
+   color: white;
+   font-size: 22px;
+}
+
+.descricao-informacoes {
+   margin-top: 0.5rem;
+   color:#8d8d8d;
+   font-size: 16px;
+}
