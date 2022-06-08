@@ -1,0 +1,11 @@
+@media screen and (max-device-width: 800px) {
+   .mais-informacoes {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+   }
+
+   .mais-informacoes .informacoes-item {
+      width: 20rem;
+   }
+}
